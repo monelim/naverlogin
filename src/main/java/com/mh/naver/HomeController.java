@@ -19,6 +19,7 @@ import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
 import org.springframework.stereotype.Controller;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -155,9 +156,10 @@ public class HomeController {
 	
 	// insert시 해당되는 email이 없으면 insert
 	@RequestMapping(value = "/memberinsert", method = RequestMethod.GET)
-	public String memberinsert(MemberDTO md) {
+	public String memberinsert(Model model, MemberDTO md) {
 		System.out.println("md = " + md);
 		MemberDTO newMd = memberDao.selectOne(md);
+		model.addAttribute("result", "insert 되었습니다.");
 		if(newMd == null) {
 			memberDao.insert(md);
 			System.out.println("insert 되었습니다.");
@@ -179,7 +181,7 @@ public class HomeController {
 	// insert시 해당되는 email이 없으면 delete
 	@RequestMapping(value = "/memberdelete", method = RequestMethod.GET)
 	public String memberdelete(MemberDTO md, Model model) {
-		
+		memberDao.delete(md);
 		model.addAttribute("result", "delete");
 		return "result";
 	}
@@ -193,7 +195,19 @@ public class HomeController {
 		return "result";
 	}
 	
-	
+	@RequestMapping(value = "/membertrac", method = RequestMethod.GET)
+	@Transactional
+	public String membertrac(MemberDTO md, Model model) {
+		model.addAttribute("result", "trac");
+		try {
+			memberDao.insert(md);
+			memberDao.update(md);
+			memberDao.delete(md);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return "result";
+	}
 }
 
 

@@ -11,5 +11,6 @@
 <a href="memberupdate?id=0&email=xxx@naver.com&password=ggg&name=jjj">update</a>
 <a href="memberdelete?id=0&email=xxx@naver.com&password=ggg&name=jjj">delete</a>
 <a href="memberselect">select</a>
+<a href="membertrac?id=0&email=xxx@naver.com&password=ggg&name=jjj">trac</a>
 </body>
 </html>
