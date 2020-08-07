@@ -1,3 +1,6 @@
+<%@ page contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>0401login</title>
-    <link rel="stylesheet" href="ex02.css">
+    <link rel="stylesheet" href="/naver/resources/login/ex02.css">
 
 <body>
     <header id = "main_header">
@@ -54,7 +57,7 @@
                                     <li><a href="#">캡 + 스카프</a></li>
                                 </ul>
                                 <ul class = "sub_img">
-                                    <img src="../site/top_submenu_1.jpg" alt="이미지">
+                                    <img src="/naver/resources/site/top_submenu_1.jpg" alt="이미지">
                                 </ul>
                             </div>
                         </div>    
@@ -100,7 +103,7 @@
                                     <li><a href="#">캡 + 비니</a></li>
                                 </ul>
                                 <ul class = "sub_img">
-                                    <img src="../site/top_submenu_2.jpg" alt="이미지">
+                                    <img src="/naver/resources/site/top_submenu_2.jpg" alt="이미지">
                                 </ul>
                             </div>
                         </div>    
@@ -140,7 +143,7 @@
                                     <li><a href="#">여아 액세서리</a></li>
                                 </ul>
                                 <ul class = "sub_img">
-                                    <img src="../site/top_submenu_3.jpg" alt="이미지">
+                                    <img src="/naver/resources/site/top_submenu_3.jpg" alt="이미지">
                                 </ul>
                             </div>
                         </div>
@@ -191,7 +194,7 @@
                                     <li><a href="#">잠옷</a></li>
                                 </ul>
                                 <ul class = "sub_img">
-                                    <img src="../site/top_submenu_4.jpg" alt="이미지">
+                                    <img src="/naver/resources/site/top_submenu_4.jpg" alt="이미지">
                                 </ul>
                             </div>
                         </div>
@@ -233,7 +236,7 @@
                                     <li><a href="#">워크아웃 액세서리</a></li>
                                 </ul>
                                 <ul class = "sub_img">
-                                    <img src="../site/top_submenu_5.jpg" alt="이미지">
+                                    <img src="/naver/resources/site/top_submenu_5.jpg" alt="이미지">
                                 </ul>
                             </div>
                         </div>
@@ -295,10 +298,10 @@
             </div>
             <div class = "side_bar">
                 <ul>
-                    <li><a href="#"><img src="top1.png" alt="검색이미지" widt=20px>검색</a></li>
-                    <li><a href="#"><img src="top2.png" alt="매장검색이미지">매장 검색</a></li>
-                    <li><a href="../login/login.html"><img src="top3.png" alt="로그인이미지">로그인</a></li>
-                    <li><a href="#"><img src="top4.png" alt="백이미지">백</a></li>
+                    <li><a href="#"><img src="/naver/resources/login/top1.png" alt="검색이미지" widt=20px>검색</a></li>
+                    <li><a href="#"><img src="/naver/resources/login/top2.png" alt="매장검색이미지">매장 검색</a></li>
+                    <li><a href="../login/login.html"><img src="/naver/resources/login/top3.png" alt="로그인이미지">로그인</a></li>
+                    <li><a href="#"><img src="/naver/resources/login/top4.png" alt="백이미지">백</a></li>
                 </ul>
             </div>
         </div>
@@ -354,9 +357,9 @@
         </div>
         <div id="snslogin">
             <div style="text-align: center;">
-                <a href="#"><img src="login_facebook.png" alt=""></a>
-                <a href="#"><img src="login_naver.png" alt=""></a>
-                <a href="#"><img src="login_kakao.png" alt=""></a>
+                <a href="#"><img src="/naver/resources/login/login_facebook.png" alt=""></a>
+                <a href="#"><img src="/naver/resources/login/login_naver.png" alt=""></a>
+                <a href="#"><img src="/naver/resources/login/login_kakao.png" alt=""></a>
             </div>
         </div>
     </section> 
@@ -391,10 +394,10 @@
             </ul>
         </div>
         <div id = "sns_img">
-            <a href=""><img src="facebook.png" alt=""></a>
-            <a href=""><img src="instagram.png" alt=""></a>
-            <a href=""><img src="blog.png" alt=""></a>
-            <a href=""><img src="twitter.png" alt=""></a>
+            <a href=""><img src="/naver/resources/login/facebook.png" alt=""></a>
+            <a href=""><img src="/naver/resources/login/instagram.png" alt=""></a>
+            <a href=""><img src="/naver/resources/login/blog.png" alt=""></a>
+            <a href=""><img src="/naver/resources/login/twitter.png" alt=""></a>
         </div>
         <div id = "footer_bottom">
             <ul>

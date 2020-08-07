@@ -21,6 +21,12 @@ public class LoginController {
 	
 	@Autowired
 	NaverLoginBO naverLoginBO;
+	
+	@RequestMapping(value = "/login", method = RequestMethod.GET)
+	public ModelAndView login(HttpSession session) {		
+		
+		return new ModelAndView("login/login.", "key", "value");
+	}
 
 	@RequestMapping(value = "/naverLogin", method = RequestMethod.GET)
 	public ModelAndView naverLogin(HttpSession session) { // Model model√ﬂ∞°

@@ -5,14 +5,14 @@
 	<title>Home</title>
 </head>
 <body>
-http://beam307.github.io/2017/11/28/naverlogin/
+https://beam307.github.io/2017/11/28/naverlogin/
 <h1>
 	Hello world!  
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
 <h2>
-	로그인 접오 : ${ sessionScope.login}
+	로그인 접보 : ${ sessionScope.login}
 </h2>
 </body>
 </html>

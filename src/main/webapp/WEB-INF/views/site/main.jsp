@@ -250,7 +250,7 @@
             width:100%;
             height:300px;
             opacity: 0.9;
-            background-image:url("woman_center.jpg");
+            background-image:url("/naver/resources/site/woman_center.jpg");
             background-repeat:no-repeat;
             background-attachment:fixed;
             background-position:top;
@@ -266,7 +266,7 @@
             width:100%;
             height:300px;
             opacity: 0.9;
-            background-image:url("man_center.jpg");
+            background-image:url("/naver/resources/site/man_center.jpg");
             background-repeat:no-repeat;
             background-attachment:fixed;
             background-position:top;
@@ -441,7 +441,7 @@
                                     <li><a href="#">캡 + 스카프</a></li>
                                 </ul>
                                 <ul class = "sub_img">
-                                    <img src="top_submenu_1.jpg" alt="이미지">
+                                    <img src="/naver/resources/site/top_submenu_1.jpg" alt="이미지">
                                 </ul>
                             </div>
                         </div>    
@@ -487,7 +487,7 @@
                                     <li><a href="#">캡 + 비니</a></li>
                                 </ul>
                                 <ul class = "sub_img">
-                                    <img src="top_submenu_2.jpg" alt="이미지">
+                                    <img src="/naver/resources/site/top_submenu_2.jpg" alt="이미지">
                                 </ul>
                             </div>
                         </div>    
@@ -527,7 +527,7 @@
                                     <li><a href="#">여아 액세서리</a></li>
                                 </ul>
                                 <ul class = "sub_img">
-                                    <img src="top_submenu_3.jpg" alt="이미지">
+                                    <img src="/naver/resources/site/top_submenu_3.jpg" alt="이미지">
                                 </ul>
                             </div>
                         </div>
@@ -578,7 +578,7 @@
                                     <li><a href="#">잠옷</a></li>
                                 </ul>
                                 <ul class = "sub_img">
-                                    <img src="top_submenu_4.jpg" alt="이미지">
+                                    <img src="/naver/resources/site/top_submenu_4.jpg" alt="이미지">
                                 </ul>
                             </div>
                         </div>
@@ -620,7 +620,7 @@
                                     <li><a href="#">워크아웃 액세서리</a></li>
                                 </ul>
                                 <ul class = "sub_img">
-                                    <img src="top_submenu_5.jpg" alt="이미지">
+                                    <img src="/naver/resources/site/top_submenu_5.jpg" alt="이미지">
                                 </ul>
                             </div>
                         </div>
@@ -682,10 +682,10 @@
             </div>
             <div class = "side_bar">
                 <ul>
-                    <li><a href="#"><img src="top1.png" alt="검색이미지" widt=20px>검색</a></li>
-                    <li><a href="#"><img src="top2.png" alt="매장검색이미지">매장 검색</a></li>
-                    <li><a href="../login/login.html"><img src="top3.png" alt="로그인이미지">로그인</a></li>
-                    <li><a href="#"><img src="top4.png" alt="백이미지">백</a></li>
+                    <li><a href="#"><img src="/naver/resources/site/top1.png" alt="검색이미지" widt=20px>검색</a></li>
+                    <li><a href="#"><img src="/naver/resources/site/top2.png" alt="매장검색이미지">매장 검색</a></li>
+                    <li><a href="../login/login.html"><img src="/naver/resources/site/top3.png" alt="로그인이미지">로그인</a></li>
+                    <li><a href="#"><img src="/naver/resources/site/top4.png" alt="백이미지">백</a></li>
                 </ul>
             </div>
         </div>
@@ -706,10 +706,10 @@
             <div id="right_top">
                 <div class="slide">
                     <ul>
-                        <li><img src="sbanner1.jpg" alt="이미지"></li>
-                        <li><img src="sbanner2.jpg" alt="이미지"></li>
-                        <li><img src="sbanner3.jpg" alt="이미지"></li>
-                        <li><img src="sbanner4.jpg" alt="이미지"></li>
+                        <li><img src="/naver/resources/site/sbanner1.jpg" alt="이미지"></li>
+                        <li><img src="/naver/resources/site/sbanner2.jpg" alt="이미지"></li>
+                        <li><img src="/naver/resources/site/sbanner3.jpg" alt="이미지"></li>
+                        <li><img src="/naver/resources/site/sbanner4.jpg" alt="이미지"></li>
                     </ul>
     
                 </div>
@@ -722,28 +722,28 @@
             </div>
             <div class="menu_box">
                 <div class="image">
-                    <a href="#"><img src="picture_1.jpg" alt="이미지"></a>
+                    <a href="#"><img src="/naver/resources/site/picture_1.jpg" alt="이미지"></a>
                     <h1>APPAREL</h1>
                     <ul>
                         <li><a href="#">지금 구매하기</a></li>
                     </ul>
                 </div>
                 <div class="image">
-                    <a href="#"><img src="picture_2.jpg" alt="이미지"></a>
+                    <a href="#"><img src="/naver/resources/site/picture_2.jpg" alt="이미지"></a>
                     <h1>UNDERWEAR</h1>
                     <ul>
                         <li><a href="#">지금 구매하기</a></li>
                     </ul>
                 </div>
                 <div class="image">
-                    <a href=""><img src="picture_3.jpg" alt="이미지"></a>
+                    <a href=""><img src="/naver/resources/site/picture_3.jpg" alt="이미지"></a>
                     <h1>ACTIVEWEAR</h1>
                     <ul>
                         <li><a href="#">지금 구매하기</a></li>
                     </ul>
                 </div>
                 <div class="image">
-                    <a href=""><img src="picture_4.jpg" alt="이미지"></a>
+                    <a href=""><img src="/naver/resources/site/picture_4.jpg" alt="이미지"></a>
                     <h1>ACCESSORIES</h1>
                     <ul>
                         <li><a href="#">지금 구매하기</a></li>
@@ -756,28 +756,28 @@
             </div>
             <div class="menu_box">
                 <div class="image">
-                    <a href="../man/man.html"><img src="picture_5.jpg" alt="이미지"></a>
+                    <a href="../man/man.html"><img src="/naver/resources/site/picture_5.jpg" alt="이미지"></a>
                     <h1>APPAREL</h1>
                     <ul>
                         <li><a href="../man/man.html">지금 구매하기</a></li>
                     </ul>
                 </div>
                 <div class="image">
-                    <a href="#"><img src="picture_6.jpg" alt="이미지"></a>
+                    <a href="#"><img src="/naver/resources/site/picture_6.jpg" alt="이미지"></a>
                     <h1>UNDERWEAR</h1>
                     <ul>
                         <li><a href="#">지금 구매하기</a></li>
                     </ul>
                 </div>
                 <div class="image">
-                    <a href=""><img src="picture_7.jpg" alt="이미지"></a>
+                    <a href=""><img src="/naver/resources/site/picture_7.jpg" alt="이미지"></a>
                     <h1>ACTIVEWEAR</h1>
                     <ul>
                         <li><a href="#">지금 구매하기</a></li>
                     </ul>
                 </div>
                 <div class="image">
-                    <a href=""><img src="picture_8.jpg" alt="이미지"></a>
+                    <a href=""><img src="/naver/resources/site/picture_8.jpg" alt="이미지"></a>
                     <h1>ACCESSORIES</h1>
                     <ul>
                         <li><a href="#">지금 구매하기</a></li>
@@ -787,7 +787,7 @@
             <div class="bottom">
                 <div id="bottom_menu">
                     <div id="left_bottom">
-                        <img src="picture_9.jpg" alt="이미지대체">
+                        <img src="/naver/resources/site/picture_9.jpg" alt="이미지대체">
                         <h1>NEW ARRIVALS</h1>
                         <ul>
                             <li><a href="../man/man.html">남성용 구매하기</a></li>
@@ -795,7 +795,7 @@
                         </ul>
                     </div>
                     <div id="right_bottom">
-                        <img src="picture_10.jpg" alt="이미지대체">
+                        <img src="/naver/resources/site/picture_10.jpg" alt="이미지대체">
                         <h1>CK ONE COLLECTION</h1>
                         <ul>
                             <li><a href="../man/man.html">남성용 구매하기</a></li>
@@ -838,10 +838,10 @@
             </ul>
         </div>
         <div id = "sns_img">
-            <a href=""><img src="facebook.png" alt=""></a>
-            <a href=""><img src="instagram.png" alt=""></a>
-            <a href=""><img src="blog.png" alt=""></a>
-            <a href=""><img src="twitter.png" alt=""></a>
+            <a href=""><img src="/naver/resources/site/facebook.png" alt=""></a>
+            <a href=""><img src="/naver/resources/site/instagram.png" alt=""></a>
+            <a href=""><img src="/naver/resources/site/blog.png" alt=""></a>
+            <a href=""><img src="/naver/resources/site/twitter.png" alt=""></a>
         </div>
         <div id = "footer_bottom">
             <ul>
